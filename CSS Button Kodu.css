@@ -1,0 +1,18 @@
+@charset "utf-8";
+/* CSS Button Kodu */
+ #bebuton{margin:20px auto;text-align:center}
+#bebuton br{display:none}
+.buton-be,.buton-be2{position:relative;display:inline-block;height:50px;width:200px;line-height:50px;padding:0;border-radius:50px;background:#fefefe;border:2px solid #0792c1;margin:10px;transition:.5s}
+.buton-be2{border:2px solid #f37a0f}
+.buton-be:hover{background:#0792c1}
+.buton-be2:hover{background:#f37a0f}
+.buton-be:hover span.circle,.buton-be2:hover span.circle2{left:100%;margin-left:-45px;background:#fefefe;color:#0792c1}
+.buton-be2:hover span.circle2{color:#f37a0f}
+.buton-be:hover span.keyw,.buton-be2:hover span.keyw2{left:40px;opacity:0}
+.buton-be:hover span.keyw-hover,.buton-be2:hover span.keyw-hover2{opacity:1;left:40px}
+.buton-be span.circle,.buton-be2 span.circle2{display:block;background:#0792c1;color:#fff;position:absolute;float:left;margin:5px;line-height:42px;height:40px;width:40px;top:0;left:0;transition:.5s;border-radius:50%}
+.buton-be2 span.circle2{background:#f37a0f}
+.buton-be span.keyw,.buton-be span.keyw-hover,.buton-be2 span.keyw2,.buton-be2 span.keyw-hover2{position:absolute;left:90px;text-align:center;margin:0 auto;font-size:15px;font-weight:bold;color:#0792c1;transition:.5s}
+.buton-be2 span.keyw2,.buton-be2 span.keyw-hover2{color: #f37a0f;left:80px}
+.buton-be span.keyw-hover,.buton-be2 span.keyw-hover2{left:80px;opacity:0}
+.buton-be span.keyw-hover,.buton-be2 span.keyw-hover2{color:#fff}
