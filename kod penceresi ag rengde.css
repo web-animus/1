@@ -1,19 +1,8 @@
 @charset "utf-8";
 /* CSS Document */
-body {
-  background:#eee;
-  padding:0;
-  margin:0;
-}
-
-#wrapper {
-  padding:5%;
-  margin:0 auto;
-}
-
 /* CSS Simple Pre Code */
 pre {
-    background: #333;
+    background: #fff;
     white-space: pre;
     word-wrap: break-word;
     overflow: auto;
@@ -21,19 +10,20 @@ pre {
 
 pre.code {
     margin: 20px 25px;
-    border-radius: 4px;
-    border: 1px solid #292929;
+    border: 1px solid #d9d9d9;
+    border-radius: 2px;
     position: relative;
+    box-shadow: 0 1px 1px rgba(0,0,0,.08);
 }
 
 pre.code label {
     font-family: sans-serif;
-    font-weight: bold;
+    font-weight: normal;
     font-size: 13px;
-    color: #ddd;
+    color: #444;
     position: absolute;
     left: 1px;
-    top: 15px;
+    top: 16px;
     text-align: center;
     width: 60px;
     -webkit-user-select: none;
@@ -47,15 +37,15 @@ pre.code code {
     display: block;
     margin: 0 0 0 60px;
     padding: 15px 16px 14px;
-    border-left: 1px solid #555;
+    border-left: 1px solid #d9d9d9;
     overflow-x: auto;
     font-size: 13px;
     line-height: 19px;
-    color: #ddd;
+    color: #444;
 }
 
 pre::after {
-    content: "2 Dəfə Tıklayın";
+    content: "2 dəfə tıklayın";
     padding: 0;
     width: auto;
     height: auto;
@@ -63,7 +53,7 @@ pre::after {
     right: 18px;
     top: 14px;
     font-size: 12px;
-    color: #ddd;
+    color: #aaa;
     line-height: 20px;
     overflow: hidden;
     -webkit-backface-visibility: hidden;
@@ -76,17 +66,17 @@ pre:hover::after {
 }
 
 pre.code-css code {
-    color: #91a7ff;
+    color: #0288d1;
 }
 
 pre.code-html code {
-    color: #aed581;
+    color: #558b2f;
 }
 
 pre.code-javascript code {
-    color: #ffa726;
+    color: #f57c00;
 }
 
 pre.code-jquery code {
-    color: #4dd0e1;
+    color: #78909c;
 }
