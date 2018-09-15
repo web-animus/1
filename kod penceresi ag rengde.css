@@ -45,7 +45,7 @@ pre.code code {
 }
 
 pre::after {
-    content: "2 dəfə tıklayın";
+    content: "2 Dəfə Tıklayın";
     padding: 0;
     width: auto;
     height: auto;
