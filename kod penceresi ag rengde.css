@@ -54,7 +54,7 @@ pre.code code {
 }
 
 pre::after {
-    content: "double click to selection";
+    content: "2 Dəfə Tıklayın";
     padding: 0;
     width: auto;
     height: auto;
